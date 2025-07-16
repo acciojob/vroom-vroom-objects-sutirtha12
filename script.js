@@ -12,7 +12,7 @@ class Car {
 class SportsCar extends Car {
 	constructor(make, model, topSpeed){
 		super(make, model)
-		this.speed=topspeed
+		this.speed=topSpeed
 	}
 	getTopSpeed(){
 		return this.speed
